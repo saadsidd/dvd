@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #222222;
+}
+
+#logo {
+  width: 20%;
+  position: absolute;
+}
+
+#crt {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url('scanlines.png');
+}
