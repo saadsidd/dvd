@@ -29,7 +29,7 @@ body {
   aspect-ratio: 1 / 1;
   border-radius: 2px;
   background-color: red;
-  filter: blur(1px);
+  filter: blur(0.1vh);
 }
 
 #logo > img {
@@ -63,7 +63,6 @@ body {
 .scanlines:before {
   width: 100%;
   height: 2px;
-  z-index: 2147483649;
   background: var(--scanline-color);
   opacity: 0.75;
   -webkit-animation: scanline 6s linear infinite;
@@ -74,7 +73,7 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 2147483648;
+  z-index: -1;
   background: linear-gradient(to bottom, transparent 50%, var(--scanline-color) 51%);
   background-size: 100% 5px;
   -webkit-animation: scanlines 1s steps(60) infinite;
