@@ -1,9 +1,7 @@
 body {
   margin: 0;
   overflow: hidden;
-  background-color: #333333;
-  background-color: #111111;
-  background-color: #000;
+  background-color: #000000;
   display: flex;
   justify-content: center;
 }
@@ -22,9 +20,6 @@ body {
   height: 57.8vh;
   position: absolute;
   top: 13.2vh;
-  /* background-color: red;
-  z-index: 4000;
-  opacity: 0.2; */
 }
 
 #logo {
@@ -46,19 +41,6 @@ body {
   left: 0;
   right: 0;
 }
-
-/* @media (orientation: landscape) {
-  #logo {
-    width: 25%;
-    max-width: 15%;
-  }
-}
-@media (orientation: portrait) {
-  #logo {
-    height: 25%;
-    max-height: 15%;
-  }
-} */
 
 
 /* Scanlines from https://codepen.io/meduzen */
