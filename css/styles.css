@@ -22,7 +22,7 @@ main {
 }
 
 @media (orientation: portrait) {
-  #container {
+  main {
     flex-direction: column;
     align-items: center;
   }
